@@ -1,0 +1,17 @@
+
+GOAL: The goal of the program is to make us familiarise with Object Oriented Programming and memoery management in C++.
+
+INPUT: The input is where we create 2 classes namely Horse and race and conduct a race between 2 or more horses in a track field.
+
+OUTPUT: The output of the program is which horse wins the race.
+
+STEPS:
+
+1.Create header files for race and horse where we define the variables as private and public.
+2.create cpp files for both race and horse and include their header files in it.
+3.the cpp file contains the function which it is going to perform to get us the output.
+4.In the race.cpp we initiate the horse position to the track lenght which it is going to cover, horse race and display which horse won the race.
+5.In the horse.cpp we just initiate a random number for the horse to move forward.
+6.In the main.cpp we include all the header files and ask for users input for no of horses and the track length.
+7.If the input is less than 2 or negative we display a message saying its cannot be less than 2.
+8.Finally we get the output of the horse which wins the race. 
